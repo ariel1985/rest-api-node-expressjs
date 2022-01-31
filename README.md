@@ -22,6 +22,8 @@ curl --header "Content-Type: application/json"   --request POST   --data '{"filt
 ```
 
 Each filter generates new dataset
+
+
 **Warning** eq (equals) function cannot be used with lt or gt. 
 
 ```
