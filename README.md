@@ -15,11 +15,11 @@ To run the app in Terminal from the app root folder
 
 ### Requests
 To make a request use and REST client via CURL
-` 
+```
 curl --header "Content-Type: application/json"   --request POST   --data '{"filter": []}'   http://localhost:3000
 
 curl --header "Content-Type: application/json"   --request POST   --data '{"filters":[{"field":"average age","operators":{"lt":40,"gt":25}},{"field":"distance from city center","operators":{"lt":10}},{"field":"average income","operators":{"sort":"desc"}}]}' http://localhost:3000
-`
+```
 
 Each filter generates new dataset
 **Warning** eq (equals) function cannot be used with lt or gt. 
