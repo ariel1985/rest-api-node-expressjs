@@ -3,8 +3,10 @@
 REST API with nodejs and epxress framework. 
 
 # Installations
-`cd app
-npm init`
+```
+cd app
+npm init
+```
 
 # Run
 To run the app in Terminal from the app root folder 
@@ -22,7 +24,7 @@ curl --header "Content-Type: application/json"   --request POST   --data '{"filt
 Each filter generates new dataset
 **Warning** eq (equals) function cannot be used with lt or gt. 
 
-`
+```
 {
     "filters": []
 }
@@ -69,8 +71,8 @@ Each filter generates new dataset
         }
     ]
 }
+```
 
-`
 **Notice**: Default sort is asc unless desc is written
 
 ## To do:
