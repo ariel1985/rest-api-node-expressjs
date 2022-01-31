@@ -72,7 +72,7 @@ Each filter generates new dataset
 }
 
 `
-** Notice **: Default sort is asc unless desc is written
+**Notice**: Default sort is asc unless desc is written
 
 ## To do:
 
