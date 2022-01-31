@@ -79,7 +79,7 @@ Each filter generates new dataset
 
 ## To do:
 
- * test case for each filter
+ * unittest for each filter
  * no filter - return all 
  * Create a unified function for checking if number / string etc...
 
