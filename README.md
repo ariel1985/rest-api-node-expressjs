@@ -3,10 +3,9 @@
 REST API with nodejs and epxress framework. 
 
 # Installations
-`
-cd app
-npm init
-`
+`cd app
+npm init`
+
 # Run
 To run the app in Terminal from the app root folder 
 
